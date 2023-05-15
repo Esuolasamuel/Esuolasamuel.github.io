@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+	font-size: 1em;
+	line-height: 1.55;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: 1.5em;
+	font-weight: 600;
+}
+img{
+	width: 11%;
+	margin-left: .5rem;
+}
+header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(40, 169, 108, .8);
+	margin-right:2rem;
+	width: 100%;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+li,
+a{
+	text-decoration: none;
+	color:rgb(40, 41, 35);
+	font-weight: 500;
+	margin-right: 1.5rem;
+}
+a: hover{
+	color:rgb(40, 41, 35);
+}
+body{
+	background-image: url("img/supermarket.jpg");
+}
+section{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box{
+	background-color: #eee;
+	width: 330px;
+	height: 50px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0px 25px;
+}
+input{
+	width: 240px;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+}
+.fa-magnifying-glass:hover{
+	color: skyblue;
+	cursor: pointer;
+}
+footer{
+	background-color: rgb(40, 41, 35);
+	color: rgb(255, 255, 255);
+	font-size: .8em;
+	text-align: center;
+	line-height: 1em;
+}
+p a{
+	color: rgba(255, 255, 255,.5)
+}
+

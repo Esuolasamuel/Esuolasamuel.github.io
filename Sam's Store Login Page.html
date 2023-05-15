@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        form {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: rgba(85, 80, 80, 0.265);
+        }
+
+        form label {
+            display: block;
+        }
+
+        h1 {
+             font-size: 2rem ;
+             font-weight: 500;
+             color: rgb(174, 100, 92);
+        }
+        label {
+            font-size: 1rem;
+            font-weight: 200;
+            color: rgb(28, 190, 67);
+        }
+        span {
+            color: rgb(0, 122, 204);
+        }
+    </style> 
+</head>
+<body>
+     <h1>Login in</h1>
+    <form action="" method="get">
+     <div>
+        <label for="user-name" >Name</label>
+        <input type="text" name="user-name" id="user-name">
+    </div>
+    <div>
+        <label for="user-password">Password</label>
+        <input type="password" name="user-password" id="user-password">
+    </div>
+    <div>
+        <label for="remember-me"><input type="checkbox" name="remember-me" id="remember-me">Remember-me</label>
+    </div>
+    <button><span>Sign in</span></button>
+    </form>
+
+
+</body>
+
+</html>
